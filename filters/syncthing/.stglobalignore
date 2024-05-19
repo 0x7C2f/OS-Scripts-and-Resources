@@ -1,0 +1,33 @@
+## File Types ##
+.git-for-windows-updater
+*.bin
+*.blf
+*.dat
+*.dll
+*.exe
+*.ini
+*.lnk
+*.lock
+*.regtrans-ms
+*.search-ms
+*.TAG
+*.tmp
+*.url
+*.url
+## Look into These ##
+*.dat*
+
+## Directories ##
+*.cache
+.openshot_qt
+Android
+AppData
+Desktop
+fontconfig
+Recorded Calls
+Searches
+
+## temp as ArchLinux will need these ##
+.docker
+.vscode
+.obsidian
