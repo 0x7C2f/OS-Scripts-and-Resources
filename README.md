@@ -2,7 +2,7 @@
 
 Welcome to the Scripts Repository!
 
-This repository contains various scripts that I occasionally create. These scripts serve different purposes and can be used for automation, system configuration, and other tasks.
+This repository contains various scripts that I occasionally create or find. These scripts serve different purposes and can be used for automation, system configuration, and other tasks.
 
 ## Usage
 
