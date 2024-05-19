@@ -1,0 +1,32 @@
+## Misc
+
+# Filtering all threads that have a question as the first or last sentence seems to dramatically increase the board quality, as it filters out troll and tech support threads.
+/^[^\v\f\r\n]*\?/i;op:only;boards:g
+/\?$/;op:only;boards:g
+
+## Bait
+
+/prove me/i;op:only;boards:g
+/convince me/i;op:only;boards:g
+/protip.\s+you can(no|'?)t/i;op:only;boards:g
+/your distro hopping/i;op:only;boards:g
+/(cuc?|ke)k/i;op:only;boards:g
+/suicide watch/i;op:only;boards:g
+/this is the power/i;op:only;boards:g
+/microsoft/i;op:only;boards:g
+/windows/i;op:only;boards:g
+/freetard/i;op:only;boards:g
+/loonix/i;op:only;boards:g
+/\/G\//;op:only;boards:g
+/we got too cocky/i;op:only;boards:g
+/we lost/i;op:only;boards:g
+/kneel/i;op:only;boards:g
+
+## Consoomer
+
+# Some of these are commented out as there can still be some interesting discussion on tech brands. Apple doesn't get a pass, though. Any thread with the word "recommend" in it (but not -ed/-s/-ation) is also suspect as it tends to be a tech support thread.
+/gam(ing|er|!es)/i;op:only;boards:g
+/recommend(?!ed|s|ation)/i;op:only;boards:g
+#/nvidia/i;op:only;boards:g
+#/amd/i;op:only;boards:g
+#/intel/i;op:only;boards:g
